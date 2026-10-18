@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="663" viewBox="0 0 1600 663">
+<rect width="100%" height="100%" fill="#111827"/>
+<style>text{font-family:Consolas,monospace;fill:#e5e7eb}.title{font-size:26px;font-weight:bold}.small{font-size:15px;fill:#9ca3af}.name{font-size:18px;fill:#d1d5db}.value{font-size:13px;fill:#f8fafc}</style>
+<text class="title" x="28" y="39">Traffic — behavioral simulation</text>
+<text class="small" x="28" y="66">Generated from wave.vcd; horizontal scale in ns</text>
+<line x1="205.0" y1="83" x2="205.0" y2="598" stroke="#273449"/>
+<text class="small" x="205.0" y="628" text-anchor="middle">0</text>
+<line x1="340.0" y1="83" x2="340.0" y2="598" stroke="#273449"/>
+<text class="small" x="340.0" y="628" text-anchor="middle">58</text>
+<line x1="475.0" y1="83" x2="475.0" y2="598" stroke="#273449"/>
+<text class="small" x="475.0" y="628" text-anchor="middle">115</text>
+<line x1="610.0" y1="83" x2="610.0" y2="598" stroke="#273449"/>
+<text class="small" x="610.0" y="628" text-anchor="middle">173</text>
+<line x1="745.0" y1="83" x2="745.0" y2="598" stroke="#273449"/>
+<text class="small" x="745.0" y="628" text-anchor="middle">230</text>
+<line x1="880.0" y1="83" x2="880.0" y2="598" stroke="#273449"/>
+<text class="small" x="880.0" y="628" text-anchor="middle">288</text>
+<line x1="1015.0" y1="83" x2="1015.0" y2="598" stroke="#273449"/>
+<text class="small" x="1015.0" y="628" text-anchor="middle">346</text>
+<line x1="1150.0" y1="83" x2="1150.0" y2="598" stroke="#273449"/>
+<text class="small" x="1150.0" y="628" text-anchor="middle">403</text>
+<line x1="1285.0" y1="83" x2="1285.0" y2="598" stroke="#273449"/>
+<text class="small" x="1285.0" y="628" text-anchor="middle">461</text>
+<line x1="1420.0" y1="83" x2="1420.0" y2="598" stroke="#273449"/>
+<text class="small" x="1420.0" y="628" text-anchor="middle">518</text>
+<line x1="1555.0" y1="83" x2="1555.0" y2="598" stroke="#273449"/>
+<text class="small" x="1555.0" y="628" text-anchor="middle">576</text>
+<text class="name" x="28" y="126">rst</text>
+<line x1="205" y1="150" x2="1555" y2="150" stroke="#334155"/>
+<polyline points="205.0,112 251.9,112 251.9,143 1555.0,143" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+<text class="name" x="28" y="187">flicker</text>
+<line x1="205" y1="211" x2="1555" y2="211" stroke="#334155"/>
+<polyline points="205.0,204 1470.6,204 1470.6,173 1517.5,173 1517.5,204 1555.0,204" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+<text class="name" x="28" y="248">red</text>
+<line x1="205" y1="272" x2="1555" y2="272" stroke="#334155"/>
+<rect x="205.0" y="235" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="216.7" y="235" width="1242.2" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="221.7" y="255">0x7</text>
+<rect x="1458.9" y="235" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="1470.6" y="235" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1475.6" y="255">0x0</text>
+<rect x="1517.5" y="235" width="37.5" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="name" x="28" y="309">yellow</text>
+<line x1="205" y1="333" x2="1555" y2="333" stroke="#334155"/>
+<rect x="205.0" y="296" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="216.7" y="296" width="1054.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="221.7" y="316">0x0</text>
+<rect x="1271.4" y="296" width="187.5" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1276.4" y="316">0x8</text>
+<rect x="1458.9" y="296" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="1470.6" y="296" width="35.2" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="1505.8" y="296" width="49.2" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1510.8" y="316">0x0</text>
+<text class="name" x="28" y="370">green</text>
+<line x1="205" y1="394" x2="1555" y2="394" stroke="#334155"/>
+<rect x="205.0" y="357" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="216.7" y="357" width="1054.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="221.7" y="377">0x8</text>
+<rect x="1271.4" y="357" width="187.5" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1276.4" y="377">0x0</text>
+<rect x="1458.9" y="357" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="1470.6" y="357" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1475.6" y="377">0x0</text>
+<rect x="1517.5" y="357" width="37.5" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="name" x="28" y="431">left</text>
+<line x1="205" y1="455" x2="1555" y2="455" stroke="#334155"/>
+<rect x="205.0" y="418" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="216.7" y="418" width="1054.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="221.7" y="438">0x8</text>
+<rect x="1271.4" y="418" width="187.5" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1276.4" y="438">0x0</text>
+<rect x="1458.9" y="418" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="1470.6" y="418" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1475.6" y="438">0x0</text>
+<rect x="1517.5" y="418" width="37.5" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="name" x="28" y="492">walk_red</text>
+<line x1="205" y1="516" x2="1555" y2="516" stroke="#334155"/>
+<rect x="205.0" y="479" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="216.7" y="479" width="1054.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="221.7" y="499">0xB</text>
+<rect x="1271.4" y="479" width="187.5" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1276.4" y="499">0xF</text>
+<rect x="1458.9" y="479" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="1470.6" y="479" width="35.2" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="1505.8" y="479" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="1517.5" y="479" width="37.5" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="name" x="28" y="553">walk_green</text>
+<line x1="205" y1="577" x2="1555" y2="577" stroke="#334155"/>
+<rect x="205.0" y="540" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="216.7" y="540" width="445.3" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="221.7" y="560">0x4</text>
+<rect x="662.0" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="667.0" y="560">0x0</text>
+<rect x="708.9" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="713.9" y="560">0x4</text>
+<rect x="755.8" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="760.8" y="560">0x0</text>
+<rect x="802.7" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="807.7" y="560">0x4</text>
+<rect x="849.5" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="854.5" y="560">0x0</text>
+<rect x="896.4" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="901.4" y="560">0x4</text>
+<rect x="943.3" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="948.3" y="560">0x0</text>
+<rect x="990.2" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="995.2" y="560">0x4</text>
+<rect x="1037.0" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1042.0" y="560">0x0</text>
+<rect x="1083.9" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1088.9" y="560">0x4</text>
+<rect x="1130.8" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1135.8" y="560">0x0</text>
+<rect x="1177.7" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1182.7" y="560">0x4</text>
+<rect x="1224.5" y="540" width="234.4" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1229.5" y="560">0x0</text>
+<rect x="1458.9" y="540" width="11.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="1470.6" y="540" width="46.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="1475.6" y="560">0x0</text>
+<rect x="1517.5" y="540" width="37.5" height="29" fill="#123d50" stroke="#22d3ee"/>
+</svg>

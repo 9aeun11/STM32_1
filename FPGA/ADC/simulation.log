@@ -1,0 +1,3 @@
+VCD info: dumpfile wave.vcd opened for output.
+PASS ADC: command, 12-bit sample, LED mapping
+tb_adc.sv:51: $finish called at 696000 (1ps)

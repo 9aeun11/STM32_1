@@ -1,0 +1,16 @@
+# Generated files
+**/build/
+**/Debug/
+**/Release/
+**/vivado_projects/
+**/.Xil/
+**/.cache/
+*.vvp
+*.elf
+*.map
+*.o
+*.d
+*.bit
+*.ltx
+*.wdb
+*.jou

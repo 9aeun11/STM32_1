@@ -1,0 +1,12 @@
+FPGA SIMULATION
+PASS ADC: command, 12-bit sample, LED mapping
+PASS Piano: note lookup, tone edges, silence
+PASS Traffic: sequence, yellow, pedestrian, flicker reset
+
+VIVADO BUILD
+PASS: all bitstreams (Piano, Traffic, ADC)
+Synth and implementation logs report 0 errors; bitstreams completed successfully.
+
+STM32 BUILD
+Task 3: 31/31 build steps; ece2_474.elf linked.
+Task 4: 31/31 build steps; ece2_474.elf linked.

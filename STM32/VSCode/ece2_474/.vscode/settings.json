@@ -1,0 +1,12 @@
+{
+  "cmake.configureArgs": [
+    "-DCMAKE_COMMAND=cube-cmake"
+  ],
+  "cmake.buildEnvironment": {
+    "PATH": "C:/Users/gaeun/Documents/Codex/2026-10-09/lab/work/arm_gcc_alt/bin;${env:PATH}"
+  },
+  "cmake.configureEnvironment": {
+    "PATH": "C:/Users/gaeun/Documents/Codex/2026-10-09/lab/work/arm_gcc_alt/bin;${env:PATH}"
+  },
+  "cmake.cmakePath": "cube-cmake"
+}

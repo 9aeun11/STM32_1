@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="724" viewBox="0 0 1600 724">
+<rect width="100%" height="100%" fill="#111827"/>
+<style>text{font-family:Consolas,monospace;fill:#e5e7eb}.title{font-size:26px;font-weight:bold}.small{font-size:15px;fill:#9ca3af}.name{font-size:18px;fill:#d1d5db}.value{font-size:13px;fill:#f8fafc}</style>
+<text class="title" x="28" y="39">ADC — behavioral simulation</text>
+<text class="small" x="28" y="66">Generated from wave.vcd; horizontal scale in ns</text>
+<line x1="205.0" y1="83" x2="205.0" y2="659" stroke="#273449"/>
+<text class="small" x="205.0" y="689" text-anchor="middle">0</text>
+<line x1="340.0" y1="83" x2="340.0" y2="659" stroke="#273449"/>
+<text class="small" x="340.0" y="689" text-anchor="middle">70</text>
+<line x1="475.0" y1="83" x2="475.0" y2="659" stroke="#273449"/>
+<text class="small" x="475.0" y="689" text-anchor="middle">139</text>
+<line x1="610.0" y1="83" x2="610.0" y2="659" stroke="#273449"/>
+<text class="small" x="610.0" y="689" text-anchor="middle">209</text>
+<line x1="745.0" y1="83" x2="745.0" y2="659" stroke="#273449"/>
+<text class="small" x="745.0" y="689" text-anchor="middle">278</text>
+<line x1="880.0" y1="83" x2="880.0" y2="659" stroke="#273449"/>
+<text class="small" x="880.0" y="689" text-anchor="middle">348</text>
+<line x1="1015.0" y1="83" x2="1015.0" y2="659" stroke="#273449"/>
+<text class="small" x="1015.0" y="689" text-anchor="middle">418</text>
+<line x1="1150.0" y1="83" x2="1150.0" y2="659" stroke="#273449"/>
+<text class="small" x="1150.0" y="689" text-anchor="middle">487</text>
+<line x1="1285.0" y1="83" x2="1285.0" y2="659" stroke="#273449"/>
+<text class="small" x="1285.0" y="689" text-anchor="middle">557</text>
+<line x1="1420.0" y1="83" x2="1420.0" y2="659" stroke="#273449"/>
+<text class="small" x="1420.0" y="689" text-anchor="middle">626</text>
+<line x1="1555.0" y1="83" x2="1555.0" y2="659" stroke="#273449"/>
+<text class="small" x="1555.0" y="689" text-anchor="middle">696</text>
+<text class="name" x="28" y="126">rst</text>
+<line x1="205" y1="150" x2="1555" y2="150" stroke="#334155"/>
+<polyline points="205.0,112 263.2,112 263.2,143 1555.0,143" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+<text class="name" x="28" y="187">channel</text>
+<line x1="205" y1="211" x2="1555" y2="211" stroke="#334155"/>
+<rect x="205.0" y="174" width="1350.0" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="210.0" y="194">0x2</text>
+<text class="name" x="28" y="248">cs_n</text>
+<line x1="205" y1="272" x2="1555" y2="272" stroke="#334155"/>
+<polyline points="205.0,265 214.7,265 214.7,234 292.3,234 292.3,265 1533.7,265 1533.7,234 1555.0,234" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+<text class="name" x="28" y="309">sclk</text>
+<line x1="205" y1="333" x2="1555" y2="333" stroke="#334155"/>
+<polyline points="205.0,326 214.7,326 214.7,295 331.1,295 331.1,326 369.9,326 369.9,295 408.7,295 408.7,326 447.5,326 447.5,295 486.2,295 486.2,326 525.0,326 525.0,295 563.8,295 563.8,326 602.6,326 602.6,295 641.4,295 641.4,326 680.2,326 680.2,295 719.0,295 719.0,326 757.8,326 757.8,295 796.6,295 796.6,326 835.4,326 835.4,295 874.2,295 874.2,326 913.0,326 913.0,295 951.8,295 951.8,326 990.6,326 990.6,295 1029.4,295 1029.4,326 1068.1,326 1068.1,295 1106.9,295 1106.9,326 1145.7,326 1145.7,295 1184.5,295 1184.5,326 1223.3,326 1223.3,295 1262.1,295 1262.1,326 1300.9,326 1300.9,295 1339.7,295 1339.7,326 1378.5,326 1378.5,295 1417.3,295 1417.3,326 1456.1,326 1456.1,295 1494.9,295 1494.9,326 1533.7,326 1533.7,295 1555.0,295" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+<text class="name" x="28" y="370">din</text>
+<line x1="205" y1="394" x2="1555" y2="394" stroke="#334155"/>
+<polyline points="205.0,387 214.7,387 214.7,387 292.3,387 292.3,356 408.7,356 408.7,387 486.2,387 486.2,356 563.8,356 563.8,387 641.4,387 641.4,356 719.0,356 719.0,387 796.6,387 796.6,356 951.8,356 951.8,387 1029.4,387 1029.4,356 1262.1,356 1262.1,387 1555.0,387" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+<text class="name" x="28" y="431">adc_dout</text>
+<line x1="205" y1="455" x2="1555" y2="455" stroke="#334155"/>
+<polyline points="205.0,448 331.1,448 331.1,417 408.7,417 408.7,448 486.2,448 486.2,417 563.8,417 563.8,448 719.0,448 719.0,417 796.6,417 796.6,448 874.2,448 874.2,417 1106.9,417 1106.9,448 1417.3,448 1417.3,417 1555.0,417" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+<text class="name" x="28" y="492">sample</text>
+<line x1="205" y1="516" x2="1555" y2="516" stroke="#334155"/>
+<rect x="205.0" y="479" width="9.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="214.7" y="479" width="1338.4" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="219.7" y="499">0x000</text>
+<rect x="1553.1" y="479" width="1.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="name" x="28" y="553">valid</text>
+<line x1="205" y1="577" x2="1555" y2="577" stroke="#334155"/>
+<polyline points="205.0,570 214.7,570 214.7,570 1553.1,570 1553.1,539 1555.0,539" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+<text class="name" x="28" y="614">led</text>
+<line x1="205" y1="638" x2="1555" y2="638" stroke="#334155"/>
+<rect x="205.0" y="601" width="9.7" height="29" fill="#123d50" stroke="#22d3ee"/>
+<rect x="214.7" y="601" width="1338.4" height="29" fill="#123d50" stroke="#22d3ee"/>
+<text class="value" x="219.7" y="621">0x00</text>
+<rect x="1553.1" y="601" width="1.9" height="29" fill="#123d50" stroke="#22d3ee"/>
+</svg>

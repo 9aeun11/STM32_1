@@ -1,0 +1,17 @@
+Verification summary - 2026-10-17
+
+PASS piano: note lookup, tone edges, silence
+PASS traffic: sequence, yellow, pedestrian, flicker reset
+PASS ADC: command, 12-bit sample, LED mapping
+
+PASS Piano bitstream: C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Piano/Piano.runs/impl_1/piano.bit
+PASS Traffic bitstream: C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Traffic/Traffic.runs/impl_1/traffic.bit
+PASS ADC bitstream: C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/ADC/ADC.runs/impl_1/adc_board.bit
+PASS all Vivado bitstreams
+
+PASS STM32 Task 3 ARM build: C:\Users\gaeun\Desktop\Engineering_Design_2\STM32_1\STM32\VSCode\ece2_474\build\Debug\ece2_474.elf
+PASS STM32 Task 4 ARM build: C:\Users\gaeun\Desktop\Engineering_Design_2\STM32_1\STM32\VSCode_Task4\ece2_474\build\Debug\ece2_474.elf
+
+Simulation evidence: FPGA/<Lab>/simulation.log and wave.vcd
+Waveform preview: FPGA/<Lab>/waveform.svg
+Vivado evidence: FPGA/vivado_build.log and FPGA/vivado_projects/<Lab>/<Lab>.runs/impl_1/*.bit

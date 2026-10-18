@@ -1,0 +1,3 @@
+VCD info: dumpfile wave.vcd opened for output.
+PASS piano: note lookup, tone edges, silence
+tb_piano.sv:49: $finish called at 2296000 (1ps)
