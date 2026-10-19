@@ -17,10 +17,11 @@
 
 ## 실행
 
-FPGA의 실행 순서와 Vivado 설정은 [`FPGA/README.md`](FPGA/README.md)를 참고하세요. 시뮬레이션은 PowerShell에서 `FPGA/run_simulations.ps1`로 실행할 수 있습니다. Vivado Tcl 스크립트와 보드 핀 제약 파일은 `FPGA/` 및 각 실습 폴더에 있습니다.
+FPGA의 실행 순서와 Vivado 설정은 [`FPGA/README.md`](FPGA/README.md)를 참고하세요. 시뮬레이션은 PowerShell에서 `FPGA/run_simulations.ps1`로 실행할 수 있습니다. Vivado Tcl 스크립트와 보드 핀 제약 파일은 `FPGA/` 및 각 실습 폴더에 있습니다. Vivado XSim 실행 스크립트는 `FPGA/run_xsim.tcl`입니다. 최신 실행 결과는 `FPGA/PASS.log`, `FPGA/xsim_simulation.log`, `FPGA/vivado_build.log`에서 확인할 수 있습니다.
 
 STM32 프로젝트 여는 방법과 빌드·플래시 순서는 [`STM32/README.md`](STM32/README.md)를 참고하세요. 과제 3과 4는 별도 프로젝트이며 제공된 CubeMX 보드 설정을 유지합니다.
 
 ## 제출 파일 관련
 
 Vivado 프로젝트 캐시, IDE 빌드 폴더, 실행 파일 등 재생성 가능한 산출물은 저장소에서 제외했습니다. 소스, 설정, 로그, VCD 및 캡처는 포함되어 있습니다.
+

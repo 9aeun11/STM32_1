@@ -1,12 +1,15 @@
-FPGA SIMULATION
-PASS ADC: command, 12-bit sample, LED mapping
+FPGA SIMULATION (Vivado XSim, 2026-10-19)
 PASS Piano: note lookup, tone edges, silence
 PASS Traffic: sequence, yellow, pedestrian, flicker reset
+PASS ADC: command, 12-bit sample, LED mapping
 
-VIVADO BUILD
-PASS: all bitstreams (Piano, Traffic, ADC)
-Synth and implementation logs report 0 errors; bitstreams completed successfully.
+VIVADO BUILD (Vivado 2026.1, xc7s75fgga484-1)
+PASS Piano: bitstream generated; DRC 0 errors
+PASS Traffic: bitstream generated; DRC 0 errors
+PASS ADC: bitstream generated; DRC 0 errors
 
 STM32 BUILD
 Task 3: 31/31 build steps; ece2_474.elf linked.
 Task 4: 31/31 build steps; ece2_474.elf linked.
+
+FPGA results confirm simulation and implementation only; physical board behavior still requires board testing.

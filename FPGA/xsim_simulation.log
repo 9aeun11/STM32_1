@@ -1,0 +1,7 @@
+Vivado 2026.1 XSim behavioral simulation | 2026-10-19
+
+PASS piano: note lookup, tone edges, silence
+PASS traffic: sequence, yellow, pedestrian, flicker reset
+PASS ADC: command, 12-bit sample, LED mapping
+
+All three supplied testbenches reached $finish without fatal errors.
