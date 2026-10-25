@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/build/Debug/cmake_install.cmake",
+		"C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

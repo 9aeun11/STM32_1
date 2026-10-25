@@ -1,0 +1,258 @@
+
+*** Running vivado
+    with args -log traffic.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source traffic.tcl
+
+
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 07-sep-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sat Oct 17 17:41:26 2026
+# Process ID         : 22548
+# Current directory  : C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Traffic/Traffic.runs/synth_1
+# Command line       : vivado.exe -log traffic.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source traffic.tcl
+# Log file           : C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Traffic/Traffic.runs/synth_1/traffic.vds
+# Journal file       : C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Traffic/Traffic.runs/synth_1\vivado.jou
+# Running On         : 9aeun
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 225H
+# CPU Frequency      : 3686 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 14
+# Host memory        : 16509 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33688 MB
+# Available Virtual  : 4292 MB
+#-----------------------------------------------------------
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sat Oct 17 17:41:26 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source traffic.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 580.523 ; gain = 269.520
+Command: synth_design -top traffic -part xc7s75fgga484-1
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7s75'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7s75'
+INFO: [Device 21-403] Loading part xc7s75fgga484-1
+INFO: [Designutils 20-5008] Incremental synthesis strategy default
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13992
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1331.012 ; gain = 577.426
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'traffic' [C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/traffic.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'second_tick' [C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/traffic.sv:18]
+	Parameter CLK_HZ bound to: 50000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'second_tick' (0#1) [C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/traffic.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'traffic_sequence' [C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/traffic.sv:32]
+INFO: [Synth 8-6155] done synthesizing module 'traffic_sequence' (0#1) [C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/traffic.sv:32]
+INFO: [Synth 8-6157] synthesizing module 'traffic_lights' [C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/traffic.sv:52]
+INFO: [Synth 8-226] default block is never used [C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/traffic.sv:60]
+INFO: [Synth 8-6155] done synthesizing module 'traffic_lights' (0#1) [C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/traffic.sv:52]
+INFO: [Synth 8-6155] done synthesizing module 'traffic' (0#1) [C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/traffic.sv:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1450.434 ; gain = 696.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1450.434 ; gain = 696.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1450.434 ; gain = 696.848
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1450.434 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/pins.xdc]
+Finished Parsing XDC File [C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/pins.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/pins.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/traffic_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/traffic_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1513.789 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1514.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1514.414 ; gain = 760.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s75fgga484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1514.414 ; gain = 760.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1514.414 ; gain = 760.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1514.414 ; gain = 760.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    4 Bit        Muxes := 12    
+	   4 Input    4 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 140 (col length:80)
+BRAMs: 180 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1530.996 ; gain = 777.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1675.992 ; gain = 922.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1706.695 ; gain = 953.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1706.695 ; gain = 953.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1962.359 ; gain = 1208.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1962.359 ; gain = 1208.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1962.359 ; gain = 1208.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1962.359 ; gain = 1208.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1962.359 ; gain = 1208.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1962.359 ; gain = 1208.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     1|
+|4     |LUT2   |     4|
+|5     |LUT3   |     4|
+|6     |LUT4   |    21|
+|7     |LUT5   |     4|
+|8     |LUT6   |    12|
+|9     |FDRE   |    32|
+|10    |IBUF   |     3|
+|11    |OBUF   |    24|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1962.359 ; gain = 1208.773
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 1962.359 ; gain = 1144.793
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1962.359 ; gain = 1208.773
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1971.520 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1975.176 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: b934e2e3
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+25 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1975.219 ; gain = 1394.695
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1975.219 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Traffic/Traffic.runs/synth_1/traffic.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file traffic_utilization_synth.rpt -pb traffic_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 17 17:42:02 2026...

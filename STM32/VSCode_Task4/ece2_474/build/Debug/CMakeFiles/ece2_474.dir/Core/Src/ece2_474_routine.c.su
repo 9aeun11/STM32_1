@@ -1,0 +1,11 @@
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/Core/Src/ece2_474_routine.c:10:6:ece2_474_init	8	static
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/Core/Src/ece2_474_routine.c:16:6:polling_routine	4	static
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/Core/Src/ece2_474_routine.c:21:13:button_isr_p7	16	static
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/Core/Src/ece2_474_routine.c:35:13:tim6_isr_p4	4	static
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/Core/Src/ece2_474_routine.c:36:13:uart2_isr_p6	4	static
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/Core/Src/ece2_474_routine.c:37:13:uart3_isr_p5	4	static
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/Core/Src/ece2_474_routine.c:38:13:gpio_in_pullup_isr_p8_ece2	4	static
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/Core/Src/ece2_474_routine.c:39:13:gpio_in_pulldown_isr_p9_ece2	4	static
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/Core/Src/ece2_474_routine.c:41:6:HAL_GPIO_EXTI_Callback	16	static
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/Core/Src/ece2_474_routine.c:48:6:HAL_TIM_PeriodElapsedCallback	16	static
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/STM32/VSCode_Task4/ece2_474/Core/Src/ece2_474_routine.c:53:6:HAL_UART_RxCpltCallback	16	static

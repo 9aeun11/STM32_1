@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Oct 25 19:42:34 2026
+# Process ID         : 26508
+# Current directory  : C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/ADC
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent7780 C:\Users\gaeun\Desktop\Engineering_Design_2\STM32_1\FPGA\vivado_projects\ADC\ADC.xpr
+# Log file           : C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/ADC/vivado.log
+# Journal file       : C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/ADC\vivado.jou
+# Running On         : 9aeun
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 225H
+# CPU Frequency      : 3686 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 14
+# Host memory        : 16509 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33688 MB
+# Available Virtual  : 10773 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/ADC/ADC.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1
+
+source tb_adc.tcl
+set_property -name {xsim.simulate.runtime} -value {4000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source tb_adc.tcl
+set_property -name {xsim.simulate.runtime} -value {5000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source tb_adc.tcl
+set_property -name {xsim.simulate.runtime} -value {10000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source tb_adc.tcl
+launch_runs impl_1 -to_step write_bitstream -jobs 7
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 7
+wait_on_run impl_1
+open_run impl_1
+close_sim

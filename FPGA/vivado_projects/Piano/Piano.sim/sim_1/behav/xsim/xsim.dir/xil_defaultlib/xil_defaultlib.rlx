@@ -1,0 +1,7 @@
+0.7
+2020.2
+Jun 16 2026
+11:10:11
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Piano/piano.sv,1792225667,systemVerilog,,C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Piano/tb_piano.sv,,note_select;piano;square_tone,,uvm,../../../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Piano/tb_piano.sv,1792226108,systemVerilog,,,,tb_piano,,uvm,../../../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Piano/Piano.sim/sim_1/behav/xsim/glbl.v,1773749341,verilog,,,,glbl,,uvm,,,,,,

@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Mon Oct 19 14:08:55 2026
+# Process ID         : 30456
+# Current directory  : C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Traffic
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent31404 C:\Users\gaeun\Desktop\Engineering_Design_2\STM32_1\FPGA\vivado_projects\Traffic\Traffic.xpr
+# Log file           : C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Traffic/vivado.log
+# Journal file       : C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Traffic\vivado.jou
+# Running On         : 9aeun
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 225H
+# CPU Frequency      : 3686 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 14
+# Host memory        : 16509 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33688 MB
+# Available Virtual  : 3976 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Traffic/Traffic.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Traffic/Traffic.runs/impl_1/traffic.bit} [get_hw_devices xc7s75_0]
+current_hw_device [get_hw_devices xc7s75_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s75_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s75_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s75_0]
+set_property PROGRAM.FILE {C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Traffic/Traffic.runs/impl_1/traffic.bit} [get_hw_devices xc7s75_0]
+program_hw_devices [get_hw_devices xc7s75_0]
+refresh_hw_device [lindex [get_hw_devices xc7s75_0] 0]

@@ -1,27 +1,27 @@
-# ECE2 STM32_1 / FPGA 실습 제출 자료
+# ECE2 STM32_1 / FPGA 실습 준비물
 
-이 저장소는 STM32 과제 3·4와 FPGA Piano·Traffic·ADC 실습의 소스, 테스트벤치, 검증 자료 및 캡처를 모았습니다.
+기준 자료: `STM32_4week_plan.pdf` (2026-10-19 STM32_1)와 수업 저장소 문서.
 
-## 구성
+## 이번 주에 할 일
 
-- `STM32/Task3_ISR_snippet.c`, `Task4_PWM_snippet.c`: 각 과제에 적용할 코드
-- `STM32/VSCode/`, `STM32/VSCode_Task4/`: 과제 3·4용 분리된 VS Code 프로젝트
-- `FPGA/Piano/`, `FPGA/Traffic/`, `FPGA/ADC/`: SystemVerilog 소스, 테스트벤치, XDC 핀 제약, 시뮬레이션 로그와 VCD
-- `Waveforms/`: 과제별 파형 기록과 미리보기 이미지
-- `evidence/`: 시뮬레이션, PASS, 빌드, 파형 및 주요 코드 캡처
-- `FPGA/PASS.log`, `FPGA/verification_summary.log`: 검증 요약
+1. **STM32 과제 3**: 버튼 인터럽트로 점멸 간격을 1 → 2 → 4 → 8 → 1초 순환시키고, TIM6 ISR이 LED(PA5)를 토글합니다.
+2. **STM32 과제 4**: 과제 3과 별도로 버튼 인터럽트가 PB4 PWM duty를 25 → 50 → 75 → 25%로 바꿉니다. C 디버거 중단점·Watch·F10을 확인합니다.
+3. **FPGA 교재 실습**: 피아노 → 신호등 → ADC 순서로 시뮬레이션과 보드 시연을 합니다.
 
-## 확인 결과
+STM32는 `NUCLEO-G474RE`와 수업 제공 저장소 `v1.1.0`을 사용합니다. STM32 예제는 `STM32/` 폴더의 코드 조각을 제공 프로젝트 `ece2_474_routine.c`에 적용합니다. 제공된 CubeMX 초기화 파일과 핀 설정은 다시 생성하거나 덮어쓰지 않습니다.
 
-제출 패키지에 보존된 로그 기준으로 FPGA 세 실습의 테스트벤치 PASS와 Vivado 비트스트림 빌드 완료가 확인됩니다. STM32 과제 3·4는 각각 제공된 VS Code 프로젝트에서 ELF 링크까지 완료된 기록을 캡처에 포함했습니다. 이 기록은 시뮬레이션 및 빌드 결과이며 실제 보드 동작을 확인했다는 뜻은 아닙니다.
+FPGA 폴더에는 문서에서 설명하는 설계 동작을 실험별 Verilog/SystemVerilog 파일로 분리했습니다. 장비 제공 ZIP과 `Xilinx S7 Pin Map.pdf`에서 확인한 보드 핀으로 각 `pins.xdc`를 작성했습니다. MCU에 XDC를 적용하지 않습니다.
 
-## 실행
+## 폴더 안내
 
-FPGA의 실행 순서와 Vivado 설정은 [`FPGA/README.md`](FPGA/README.md)를 참고하세요. 시뮬레이션은 PowerShell에서 `FPGA/run_simulations.ps1`로 실행할 수 있습니다. Vivado Tcl 스크립트와 보드 핀 제약 파일은 `FPGA/` 및 각 실습 폴더에 있습니다. Vivado XSim 실행 스크립트는 `FPGA/run_xsim.tcl`입니다. 최신 실행 결과는 `FPGA/PASS.log`, `FPGA/xsim_simulation.log`, `FPGA/vivado_build.log`에서 확인할 수 있습니다.
+- `STM32/Task3_ISR_snippet.c`: 과제 3에 넣을 상태 변수와 함수 본문
+- `STM32/Task4_PWM_snippet.c`: 과제 4용 별도 함수 본문
+- `STM32/VSCode/ece2_474/`: 제공 CubeMX 파일과 ISR 과제 3이 적용된 열 수 있는 VS Code 프로젝트
+- `STM32/VSCode_Task4/ece2_474/`: PWM 과제 4가 적용된 별도 VS Code 프로젝트
+- `STM32/VSCode/ece2_474/Variants/Task4_PWM/ece2_474_routine.c`: 과제 4의 원본 대체 routine 파일
+- `FPGA/Piano/`: `piano` 설계와 테스트벤치
+- `FPGA/Traffic/`: `traffic` 설계와 테스트벤치
+- `FPGA/ADC/`: `adc` 설계와 테스트벤치
+- `FPGA/README.md`: Vivado 시뮬레이션 구성, 보드 시연 주의점
 
-STM32 프로젝트 여는 방법과 빌드·플래시 순서는 [`STM32/README.md`](STM32/README.md)를 참고하세요. 과제 3과 4는 별도 프로젝트이며 제공된 CubeMX 보드 설정을 유지합니다.
-
-## 제출 파일 관련
-
-Vivado 프로젝트 캐시, IDE 빌드 폴더, 실행 파일 등 재생성 가능한 산출물은 저장소에서 제외했습니다. 소스, 설정, 로그, VCD 및 캡처는 포함되어 있습니다.
-
+과제 3과 과제 4는 각각 별도 VS Code 프로젝트에 적용되어 있으며 두 프로젝트 모두 Debug ELF 빌드가 완료되었습니다. FPGA의 Piano·Traffic·ADC는 시뮬레이션과 Vivado 비트스트림 빌드가 완료되었습니다. 빠른 확인은 `FPGA/PASS.log`, 원본 근거는 각 `simulation.log`, `wave.vcd`, `FPGA/vivado_build.log`에 있습니다. VS Code에서는 `waveform.svg` 세 개와 `PASS.log`를 함께 열 수 있습니다.

@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/traffic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module traffic
+INFO: [VRFC 10-311] analyzing module second_tick
+INFO: [VRFC 10-311] analyzing module traffic_sequence
+INFO: [VRFC 10-311] analyzing module traffic_lights
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/Traffic/tb_traffic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_traffic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_1/FPGA/vivado_projects/Traffic/Traffic.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
